@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+   root 'sexyiestlikelion#jinkyum'
+   get "/" => "sexyiestlikelion#jinkyum"
+   get "/sexylion" => "sexyiestlikelion#hotkyum"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
